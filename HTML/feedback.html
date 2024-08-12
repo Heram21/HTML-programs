@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        textarea{
+            width:400px ;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Zomato Feedback Form</h2>
+    <form>
+        <input required type="text" placeholder="First Name"><br><br>
+        <input required type="text" placeholder="Last Name"><br><br>
+        <input required type="date" placeholder="Date Of Birth">
+        <input required type="number" placeholder="Phone Number"><br><br>
+        <input required type="email" placeholder="email">
+        <input required type="text" placeholder="Address"><br><br>
+        <textarea required name="feedback" placeholder="Things you liked in our App"></textarea><br><br>
+        <textarea required name="feedback" placeholder="Things you restricted in our App"></textarea><br><br>
+        <textarea required name="feedback" placeholder="Suggestions to improve?"></textarea><br>
+        <p>Do you like the service from our agent?</p>
+        <lable required for="01">
+            <input type="radio" value=Yes name="Boolean" id="01">Yes
+        </lable><br>
+        <lable required for="02">
+            <input type="radio" value=No name="Boolean" id="02">No
+        </lable>
+    </form> 
+    <div class="form-group">
+        <button type="submit">submit</button>
+    </div>
+</body>
+</html>
